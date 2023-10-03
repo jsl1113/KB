@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="40dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/title_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/border_layout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Q. 전단지는 어떻게 분리배출 해야 할까요?"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A. 코팅된 종이인 전단지는 종량제 봉튜로 배출해 주세요."/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/border_layout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Q. 이물질이 묻은 비닐 봉지는 어떻게 분리배출 해야 할까요? "/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A. 내용물을 비우고, 물로 헹군 후 비닐류 수거함으로 배출해 주세요. (이물질 제거가 어려울 경우 종량제 봉투에 배출)"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/border_layout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Q. 깨진 유리는 어떻게 버리는 것이 좋을까요?"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A. A. 신문지 등으로 감싸고 종량제 봉투에 배출해 주세요. (깨진 유리의 양이 많을 경우 불연성 전용봉투로 배출)"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/border_layout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Q. 처방받은 약이나 소화제 등의 의약품은 배출하는 방법이 따로 있나요?"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A. 폐의약품은 약국, 보건소 등에 배출 해야하며, 수거된 폐의약품은 소각 처리 됩니다."/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/border_layout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Q. 카세트테이프는 어떻게 버리면 되나요?"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A. 나사를 제거에 상단 커버를 열어준 후, 부품을 분리해 배출해줘야 합니다.
+                    \n 커버는 스티커를 제거한 후 플라스틱으로 분리 수거하고, 안에 들어있는 플라스틱들의 크기는 너무 작아 분리수거가 되지 않습니다.
+                    \n 비닐 테이프 포함 모두 종량제 봉투에 배출해 주세요."/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/border_layout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Q. 페트병 분리배출 방법이 따로 있나요?"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A. 투명 페트병은 고품질 섬유로 재활용할 수 있기 때문에 다른 불투병 페트병(맥주용 갈색 페트병, 음료수 페트병 색깔이 있는 투명 페트병 등)과 분리해서 배출해야 합니다.
+                    \n 페트병은 내용물을 헹구고 비날 라벨을 제거한 후 압착해 버리시면 됩니다.
+"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/border_layout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Q. 뚜껑을 닫고 배출하라고 하는데 다른 재질이라 섞이면 재활용이 어렵지 않나요?"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A. 최근 플라스틱 배출량이 많아져 부피를 줄이기 쉽도록 압착해서 뚜껑을 닫도록 안내하고 있습니다.
+                    \n 뚜껑은 물에 뜨는 재질이고 몸체는 물에 가라앉는 재질이라 재활용 필수 공정인 세척 과정에서 분리할 수 있어 같이 배출해도 가능합니다. (다만, 철로 된 뚜껑은 따로 배출)
+"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/border_layout">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Q. 칫솔에는 왜 재활용 마크가 안 붙어 있나요? 재활용 분리수거가 안 되는 제품인가요?"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A. 칫솔은 환경부에서 폐기물로 지정한 품목이라 재활용 표시를 못 하게 되어 있습니다. 칫솔은 여러가지 복합 재질로 구성되어 있어 일반 폐기물로 버리셔야 합니다. "/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PhotoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp" >
+
+        <kr.ac.skuniv.cameraimage.CameraSurfaceView
+            android:id="@+id/surfaceview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="35dp" />
+        <ImageView
+            android:id="@+id/camerafocus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/camerafocus" />
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="220dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/take_picture_button"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="230dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:background="@drawable/detect_button"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+</LinearLayout>
